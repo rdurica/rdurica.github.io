@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,21 +9,13 @@
     <link rel="shortcut icon" type="image/png" href="#" />
     <title>Robert Ďurica</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/template.css" />
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     </script>
     <script>
         $(window).on("scroll", function () {
@@ -35,30 +28,17 @@
             }
         });
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131757960-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-131757960-1');
-    </script>
-
-
-
 </head>
 
 <body>
     <header id="home">
         <div class="overlay"></div>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark animated fadeInDown">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)">
-                    <h3 class="my-heading"><a href="#home"> <img src="assets/img/logo.png" alt="rdurica"
-                                style="height: 35px;"></a></h3>
+                <a href="/" class="navbar-brand">
+                    <h3 class="my-heading">
+                        <a href="/"><img src="assets/img/logo.png" style="height: 35px;" alt="rdurica"></a>
+                    </h3>
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -67,18 +47,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about"> About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services"> Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills"> Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact"> Contact</a>
-                        </li>
+                        <li class="nav-item"> <a href="#about" class="nav-link"> About me</a> </li>
+                        <li class="nav-item"> <a href="#services" class="nav-link"> Services</a></li>
+                        <li class="nav-item"> <a href="#skills" class="nav-link"> Skills</a></li>
+                        <li class="nav-item"> <a href="#contact" class="nav-link"> Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,67 +60,74 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 offset-md-3" style="text-align: center;">
-                        <img src="assets/img/photo.jpg" class="img-fluid img-thumbnail" style="margin-bottom: 1vh;"
-                            alt="Robert Durica" />
-                        <h1 class="title-main wow fadeInLeft" data-wow-duration="1.5s">Robert Ďurica</h1>
-                        <h3 class="subtitle-main wow fadeInUp" data-wow-duration="1.1s">Web Developer</h3>
+                        <img src="assets/img/photo.jpg" class="img-fluid img-thumbnail" alt="Robert Durica" />
+                        <h1 class="title-main">Robert Ďurica</h1>
+                        <h3 class="subtitle-main">Web Developer</h3>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="sesgoabajo"></div>
     </header>
     <main>
         <section class="overview-wrap" id="about">
             <div class="container">
                 <div class="contenedor">
-                    <h2 class="title-overview wow fadeInUp">About me</h2>
-                    <p class="subtitle-overview wow fadeInUp" style="text-align: left;">
-                        Hello. My name is Robert and I'm Web Developer. Currently living in Czech Republic. I have
-                        experience in
-                        developing a web
-                        applications, complex back-end management systems. Using latest version of PHP 7 in
-                        conjunction with other modern web technologies.
-                        I'm trying to make my code as clean as possible with focus on easy extensibility.
+                    <h2 class="title-overview">About me</h2>
+                    <p class="subtitle-overview" style="text-align: left;">
+                        Hello. My name is Robert and I'm Full stack web developer. For over 5+ years, I am developing
+                        software. I
+                        mainly focus on the development of web
+                        applications and information systems of various kinds. During my work places high emphasis on
+                        quality, stability, speed and application security. Currently working as Systems engineering
+                        lead so development is in second place (mostly in my free time). I have passion for Python
+                        and Django. <br> <br>
+
+                        Customer satisfaction always comes first for me.
                     </p>
                     <div class="row">
-                        <div class="col-md-6 col-lg-3" data-wow-duration="1.4s">
+                        <div class="col-md-6 col-lg-3">
                             <div class="overview-box mx-auto">
                                 <div class="features-icons-icon d-flex">
                                     <i class="fab fa-sass fa-5x m-auto tech"></i>
                                 </div>
                                 <h5>Front-end</h5>
-                                <p class=" mb-0">Modern front-end tools with Bootstrap framework</p>
+                                <p class="mb-0">
+                                    Modern front-end tools with Bootstrap framework
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3" data-wow-duration="1.4s">
+                        <div class="col-md-6 col-lg-3">
                             <div class="overview-box mx-auto">
                                 <div class="features-icons-icon d-flex">
                                     <i class="fas fa-code-branch fa-5x tech m-auto"></i>
                                 </div>
                                 <h5>Back-end</h5>
-                                <p class=" mb-0">Latest PHP 7 version with Symfony framework</p>
+                                <p class=" mb-0">
+                                    Python in conjunction with <br>Django framework
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="col-md-6 col-lg-3">
                             <div class="overview-box mx-auto">
                                 <div class="features-icons-icon d-flex">
                                     <i class="fas fa-database fa-5x tech m-auto"></i>
                                 </div>
                                 <h5>Databases</h5>
-                                <p class=" mb-0">Relational databases MariaDB / MySQL with object relation mapping
-                                    (Doctrine
-                                    2)</p>
+                                <p class=" mb-0">
+                                    Relational databases <br> MariaDB / MySQL
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3" data-wow-duration="1.4s">
+                        <div class="col-md-6 col-lg-3">
                             <div class="overview-box mx-auto">
                                 <div class="features-icons-icon d-flex">
                                     <i class="fab fa-linux fa-5x m-auto tech"></i>
                                 </div>
                                 <h5>Server</h5>
-                                <p class=" mb-0">Linux server administration, deployment, cron jobs </p>
+                                <p class=" mb-0">
+                                    Linux server administration, deployment, cron jobs, docker
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -159,94 +138,123 @@
             <div class="sesgoarriba"></div>
             <div class="container">
                 <div class="contenedor">
-                    <h2 class="title-testimonials wow fadeInUp">Services</h2>
-                    <div class="slide-one">
-                        <div id="demo" class="carousel slide" data-ride="carousel">
-                            <ul class="carousel-indicators">
-                                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                <li data-target="#demo" data-slide-to="1"></li>
-                                <li data-target="#demo" data-slide-to="2"></li>
-                                <li data-target="#demo" data-slide-to="3"></li>
-                            </ul>
-
-                            <!-- The slideshow -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active ">
-                                    <div class="banner-slide">
-                                        <h5>Personal websites & Management system</h5>
-                                        <p>Developing static websites & Management system for you and/or your business
-                                            based on your needs.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="banner-slide">
-                                        <h5>Server installation & maintenance</h5>
-                                        <p>Do you need to setup your server/database ? Do not have a server or domain ?
-                                        </p>
-                                        <p>No problem, I can do it for you. For monthly payment i can handle VPS
-                                            administration, system updates and whole process required for websites</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="banner-slide">
-                                        <h5>Price</h5>
-                                        <p>Price depends on your needs and difficulty/time required to achieve your
-                                            goals. After first consultation I send to you expected price. Consultation
-                                            is for free.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="banner-slide">
-                                        <h5>Deployment</h5>
-                                        <p>Before deploy, application is available on my server for your review and
-                                            additional changes based on your needs. After final agreement whole
-                                            application is deployed on your server.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev " href="#demo" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#demo" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
+                    <h2 class="title-testimonials">Services</h2>
+                    <div class="row" style="color: white;">
+                        <div class="col-md-6 col-lg-12">
+                            <h5>Personal websites & Management system</h5>
+                            <p>Developing static websites & Management system for you and/or your business
+                                based on your needs.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <h5>Server installation & maintenance</h5>
+                            <p>For monthly payment i can handle VPS
+                                administration, system updates and whole process required for websites</p>
+                        </div>
+                    </div>
+                    <div class="row" style="color: white;">
+                        <div class="col-md-6 col-lg-12">
+                            <h5>Price</h5>
+                            <p>Price depends on your needs and difficulty/time required to achieve your
+                                goals. After first consultation I send to you expected price. Consultation
+                                is for free.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-12">
+                            <h5>Deployment</h5>
+                            <p>Before deploy, application is available on my server for your review and
+                                additional changes based on your needs. After final agreement whole
+                                application is deployed on your server.
+                            </p>
                         </div>
                     </div>
 
                 </div>
+
+            </div>
+            </div>
+
+            </div>
             </div>
             <div class="sesgoabajo"></div>
         </section>
         <section class="overview-wrap" id="skills">
             <div class="container">
                 <div class="contenedor">
-                    <h2 class="title-overview wow fadeInUp">Skills</h2>
+                    <h2 class="title-overview">Skills</h2>
                     <div class="row">
-                        <div class="col-md-3 offset-md-4">
-                            <ul>
-                                <li>PHP 7</li>
-                                <li>Symfony framework</li>
-                                <li>Doctrine 2</li>
-                                <li>MariaDB/MySQL</li>
-                                <li>PHPUnit</li>
-                                <li>Docker</li>
-                                <li>Apache</li>
-                                <li>Composer</li>
-                                <li>Git</li>
-                                <li>Linux servers</li>
-                            </ul>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-python fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Python / Django </p>
+                            </div>
                         </div>
-                        <div class="col-md-3">
-                            <ul>
-                                <li>HTML</li>
-                                <li>SASS/LESS/CSS</li>
-                                <li>Bootstrap 4</li>
-                                <li>Nodejs</li>
-                                <li>Webpack</li>
-                                <li>Javascript/Jquery</li>
-                            </ul>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-php fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Symfony framework </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fas fa-database fa-5x m-auto tech"></i>
+                                </div>
+                                <p> MariaDB/MySQL </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-docker fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Docker </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-github fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Git </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-linux fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Apache / Nginx <br> Linux servers </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-html5 fa-5x m-auto tech"></i>
+                                </div>
+                                <p> HTML / SASS / LESS / CSS </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-bootstrap fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Bootstrap </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <div class="overview-box mx-auto">
+                                <div class="features-icons-icon d-flex">
+                                    <i class="fab fa-js fa-5x m-auto tech"></i>
+                                </div>
+                                <p> Javascript / Jquery </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -256,13 +264,18 @@
             <div class="sesgoarriba"></div>
             <div class="container">
                 <div class="contenedor" id="contact">
-                    <h2 class="title-testimonials wow fadeInUp">Contact</h2>
-                    <h3 class="subtitle-testimonials wow fadeInUp">
-                        Leave me a message and we can start. I will contact you as soon as possible.
-                    </h3>
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            tbc
+                    <h2 class="title-testimonials">Contact</h2>
+                    <div class="row" style="color: white;">
+                        <div class="col-md-2 col-lg-2">
+                            <a rel='nofollow' href='https://www.qr-code-generator.com' border='0'
+                                style='cursor:default'></a><img
+                                src='https://chart.googleapis.com/chart?cht=qr&chl=MATMSG%3ATO%3Ar.durica%40gmail.com%3BSUB%3AWeb%20developer%20wanted%3BBODY%3A%3B%3B&chs=180x180&choe=UTF-8&chld=L|2'
+                                alt=''>
+
+                        </div>
+                        <div class="col-md-1 col-lg-1"> </div>
+                        <div class="col-md-9 col-lg-9">
+                            Leave me a message and we can start. I will contact you as soon as possible.
                         </div>
                     </div>
 
@@ -274,11 +287,12 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center  my-auto">
+                <div class="col-lg-12 text-center my-auto">
                     <p class="mb-4 mb-lg-0">© Robert Ďurica 2021 </p>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

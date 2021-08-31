@@ -71,7 +71,7 @@ header {
 }
 
 header .tophead {
-    margin-top: 150px;
+    margin-top: 25vh;
 }
 
 header .title-main {
@@ -107,7 +107,7 @@ header .subtitle-main {
     font-size: 16px;
     font-weight: 300;
     line-height: 27px;
-    max-width: 660px;
+    max-width: 1000px;
     margin: 19px auto 103px;
     text-align: center;
 }
@@ -144,8 +144,6 @@ header .subtitle-main {
 /***overview***/
 
 .overview-box {
-    height: 270px;
-    width: 100%;
     text-align: center;
     padding: 35px 20px;
 }
@@ -632,10 +630,7 @@ a:active {
     color: white;
 }
 
-.form-control,
-.form-control:active,
-.form-control:focus {
-    background-color: #5b6167;
-    color: white;
-    border: none;
+.img-thumbnail {
+    margin-bottom: 1vh;
+    width: 30vh;
 }
