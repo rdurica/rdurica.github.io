@@ -27,6 +27,13 @@ body {
     margin: 0 auto;
 }
 
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .navbar {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
