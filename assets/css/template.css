@@ -217,16 +217,6 @@ header .subtitle-main {
 
 /***testimonial***/
 
-.testimonials-wrap {
-    background: linear-gradient(0deg, #343a40 0%, #50575d 100%);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-    padding: 8rem 0 12rem;
-}
-
 .title-testimonials {
     text-align: center;
     color: #ffffff;
@@ -651,4 +641,26 @@ a:active {
 .img-thumbnail {
     margin-bottom: 1vh;
     width: 30vh;
+}
+
+.service-box {
+    background-color: #50575d;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.service-box>h5 {
+    padding-bottom: 10px;
+}
+
+.testimonials-wrap {
+    background: linear-gradient(0deg, #343a40 0%, #50575d 100%);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    padding: 8rem 0 12rem;
 }
